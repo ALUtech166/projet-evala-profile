@@ -8,6 +8,8 @@ import PortalView from '@/views/PortalView.vue'
 import PostarticleView from '@/views/PostarticleView.vue'
 import CheckoutView from '@/views/CheckoutView.vue'
 
+
+
 const routes = [
 
   {

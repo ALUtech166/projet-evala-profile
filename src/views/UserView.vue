@@ -1,14 +1,10 @@
 <template>
      <div class="home">
           <div class="header-search">
-               <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Recherche" aria-label="Recipient's username"
-                         aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                         <span class="input-group-text" id="basic-addon2">Recherche <i
-                                   class="fa-solid fa-magnifying-glass"></i></span>
-                    </div>
-               </div>
+               <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Recherche</button>
+               </form>
           </div>
 
           <div class="body">
@@ -17,7 +13,7 @@
           </div>
 
           <base-card>
-          
+
                <table class="table">
                     <tbody>
                          <tr>
@@ -68,16 +64,17 @@
 
                <div class="" style="text-align: right">
                     <button type="button" class="btn btn-danger">Quitter</button>
+                    
                </div>
 
-   
+
           </base-card>
 
      </div>
 </template>
 
 <script>
-import BaseCard from '@/components/UI/BaseCard.vue'
+     import BaseCard from '@/components/UI/BaseCard.vue'
      export default {
           components: {
                BaseCard

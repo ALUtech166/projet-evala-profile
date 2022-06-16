@@ -49,7 +49,7 @@
 
 
     <div class="side-bar">
-      <SidebarLink to="/" icon="fas fa-home">Utilisateur</SidebarLink>
+      <SidebarLink to="/" icon="fas fa-home">Profile</SidebarLink>
       <SidebarLink to="/societe" icon="fas fa-chart-bar">Société</SidebarLink>
       <SidebarLink to="/article" icon="fa-solid fa-cart-shopping">Articles</SidebarLink>
     </div>
